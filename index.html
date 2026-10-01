@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex">
 <title>One Nail Spa — Manicure, Pedicure & Nail Art · Milano</title>
 <meta name="description" content="One Nail Spa: manicure, pedicure, semipermanente e nail art a Milano. Due sedi (Via Ronchi 31 e Via Pacini 22), staff professionale, prenotazione online. Scegli il tuo colore." />
 <link rel="canonical" href="https://rotenzark.github.io/one-nail-spa/" />
@@ -21,27 +22,58 @@
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png" />
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="fonts/fonts.css?v=1">
 <link rel="stylesheet" href="css/styles.css?v=1" />
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org", "@type": "NailSalon",
+  "@context": "https://schema.org",
+  "@type": "NailSalon",
   "name": "One Nail Spa",
   "description": "Nail spa e centro estetico a Milano: manicure, pedicure, semipermanente, nail art ed extension ciglia. Due sedi.",
   "url": "https://rotenzark.github.io/one-nail-spa/",
-  "telephone": "+393317133577", "priceRange": "€€",
+  "telephone": "+393317133577",
+  "priceRange": "€€",
   "image": "https://rotenzark.github.io/one-nail-spa/img/hero-nails.jpg",
   "address": [
-    { "@type": "PostalAddress", "streetAddress": "Via Ronchi 31", "addressLocality": "Milano", "postalCode": "20134", "addressCountry": "IT" },
-    { "@type": "PostalAddress", "streetAddress": "Via Giovanni Pacini 22", "addressLocality": "Milano", "postalCode": "20131", "addressCountry": "IT" }
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Ronchi 31",
+      "addressLocality": "Milano",
+      "postalCode": "20134",
+      "addressCountry": "IT"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Via Giovanni Pacini 22",
+      "addressLocality": "Milano",
+      "postalCode": "20131",
+      "addressCountry": "IT"
+    }
   ],
-  "geo": { "@type": "GeoCoordinates", "latitude": 45.4887976, "longitude": 9.2369838 },
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.7", "reviewCount": "76" },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 45.4887976,
+    "longitude": 9.2369838
+  },
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "21:00" },
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "20:00" }
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "21:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "10:00",
+      "closes": "20:00"
+    }
   ]
 }
 </script>
@@ -141,7 +173,7 @@
         <p class="sede-line"><b data-i18n="sede.tel">Tel</b> <a href="tel:+393317133577">331 713 3577</a></p>
         <p class="sede-line"><b data-i18n="sede.hours">Orari</b> <span data-i18n="sede.1hours">Mar–Sab 9–21 · Dom 10–20 · Lun chiuso</span></p>
         <a class="sede-map" href="https://www.google.com/maps/dir/?api=1&destination=One+Nail+Spa+Via+Ronchi+31+Milano" target="_blank" rel="noopener" data-i18n="sede.route">Come arrivare →</a>
-        <iframe title="Mappa Via Ronchi 31" src="https://www.google.com/maps?q=One+Nail+Spa+Via+Ronchi+31+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 320px"><template><iframe title="Mappa Via Ronchi 31" src="https://www.google.com/maps?q=One+Nail+Spa+Via+Ronchi+31+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&destination=One+Nail+Spa+Via+Ronchi+31+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
     </article>
     <article class="sede reveal">
@@ -153,7 +185,7 @@
         <p class="sede-line"><b data-i18n="sede.tel">Tel</b> <a href="tel:+393393386431">339 338 6431</a></p>
         <p class="sede-line"><b data-i18n="sede.hours">Orari</b> <span data-i18n="sede.2hours">Apertura dalle 9 · vedi Google per i dettagli</span></p>
         <a class="sede-map" href="https://www.google.com/maps/dir/?api=1&destination=One+Nail+Spa+2+Via+Pacini+22+Milano" target="_blank" rel="noopener" data-i18n="sede.route">Come arrivare →</a>
-        <iframe title="Mappa Via Pacini 22" src="https://www.google.com/maps?q=One+Nail+Spa+Via+Pacini+22+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mappa-clic" data-mappa-clic style="--mappa-h: 320px"><template><iframe title="Mappa Via Pacini 22" src="https://www.google.com/maps?q=One+Nail+Spa+Via+Pacini+22+Milano&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></template><div class="mappa-clic__velo"><a class="mappa-clic__btn" href="https://www.google.com/maps/dir/?api=1&destination=One+Nail+Spa+Via+Ronchi+31+Milano" target="_blank" rel="noopener">Mostra la mappa</a><p class="mappa-clic__nota">La mappa è di Google: aprendola, Google riceve il tuo indirizzo IP e può usare i suoi cookie.</p></div></div>
       </div>
     </article>
   </div>
@@ -176,9 +208,9 @@
 <section id="recensioni" class="section">
   <div class="rev-head reveal"><p class="kicker" data-i18n="rev.kicker">Le voci</p><h2 data-i18n="rev.h2">4,7★ · e ci si torna sempre</h2></div>
   <div class="rev-grid">
-    <blockquote class="rev reveal"><p>È il secondo anno che vengo per manicure e pedicure con semipermanente. Staff eccezionale, professioniste bravissime ed estremamente disponibili.</p><cite>Elisa Antoniazzi · <span>★★★★★</span></cite></blockquote>
-    <blockquote class="rev reveal"><p>Sono anni che vengo in questo salone. Mi sono trasferita in un'altra zona di Milano, ma torno sempre qua: oltre a essere brave, sono davvero gentili.</p><cite>Laura Ardito · <span>★★★★★</span></cite></blockquote>
-    <blockquote class="rev reveal"><p>Prenotato comodamente su app, con il costo già chiaro. Arrivata preparata e trovato esattamente il servizio: professionali e organizzate.</p><cite>Asia Martorano · <span>★★★★★</span></cite></blockquote>
+    <blockquote class="rev reveal"><p lang="it">È il secondo anno che vengo per manicure e pedicure con semipermanente. Staff eccezionale, professioniste bravissime ed estremamente disponibili.</p><cite>Elisa Antoniazzi · <span>★★★★★</span></cite></blockquote>
+    <blockquote class="rev reveal"><p lang="it">Sono anni che vengo in questo salone. Mi sono trasferita in un'altra zona di Milano, ma torno sempre qua: oltre a essere brave, sono davvero gentili.</p><cite>Laura Ardito · <span>★★★★★</span></cite></blockquote>
+    <blockquote class="rev reveal"><p lang="it">Prenotato comodamente su app, con il costo già chiaro. Arrivata preparata e trovato esattamente il servizio: professionali e organizzate.</p><cite>Asia Martorano · <span>★★★★★</span></cite></blockquote>
   </div>
 </section>
 
@@ -217,7 +249,7 @@
   </div>
   <div class="foot-bottom">
     <p data-i18n="foot.disclaimer">Sito dimostrativo. Contenuti e foto raccolti da fonti pubbliche (Google Maps); orari, servizi e prezzi sono indicativi, da confermare con il salone.</p>
-    <p class="foot-credit">Design <a href="https://bespokestud.io" target="_blank" rel="noopener">Bespoke Studio</a></p>
+    <p class="foot-credit">Design <a href="https://bespokestud.io" target="_blank" rel="noopener">Bespoke Studio</a> · <a href="privacy.html">Privacy</a></p>
   </div>
 </footer>
 
@@ -228,5 +260,6 @@
 
 <div id="lightbox" aria-hidden="true"><button id="lb-close" aria-label="Chiudi">✕</button><img id="lb-img" src="" alt="" /></div>
 <script src="js/main.js?v=1"></script>
+<script src="js/mappa-clic.js?v=1" defer></script>
 </body>
 </html>
